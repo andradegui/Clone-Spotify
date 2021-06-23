@@ -9,14 +9,21 @@ body {
     padding: 15px 0px;
     background: rgba(0, 0, 0, 0.6);
 }
-i {
-    color: white;
-}
 
 .nav-link {
     color: white!important;
 }
 
 .nav-link:hover {
-    color: rgb(146, 0, 165)!important;
+    color: rgb(183, 98, 194)!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.divisor {
+    width: 1px;
+    background: white;
 }
